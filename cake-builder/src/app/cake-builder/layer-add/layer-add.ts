@@ -8,8 +8,10 @@ import { LayerService }  from '../../layer.service';
 })
 export class LayerAdd {
 
- handleClick() {
+ handleClick(): void {
 //    LayerService.addLayer()
- console.log('The Button Works')    
+//button should display a form to collect user input
+  //input to be used as cake layer parameters
+ console.log('The Button Works');    
  }
 }

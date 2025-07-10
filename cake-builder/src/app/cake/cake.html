@@ -1,1 +1,8 @@
-<p>cake works!</p>
+<main class="main">
+  <h2>Here's your cake:</h2>
+    <ol>
+      <li *ngfor = "let aLayer of layerNames">
+        {{aLayer}}
+      </li>
+    </ol>
+  </main>
