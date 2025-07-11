@@ -13,23 +13,23 @@ export class LayerService {
 
   constructor() { 
     //dummy layers *remove later
-    this.layersArray.push({height: 2, width: 5, color: 'pink'})
-    this.layersArray.push({height: 2, width: 3, color: 'pink'})
-    this.layersArray.push({height: 2, width: 1, color: 'pink'})
+    this.layersArray.push({height: 100, width: 100, backgroundColor: 'pink'})
+    this.layersArray.push({height: 200, width: 300, backgroundColor: 'blue'})
+    this.layersArray.push({height: 200, width: 500, backgroundColor: 'green'})
 
   }
 
   addLayer (layer: Layer) {
     this.layersArray.push(layer) 
-}
+  }
 
 removeLayer (layer: Layer) {
     this.layersArray.pop ()
-}
+  }
 
 getArray() {
   return this.layersArray;
-}
+  }
 
 }
 

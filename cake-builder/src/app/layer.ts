@@ -4,5 +4,5 @@ export interface Layer {
     // Ranges from 1-10
     width : number;
     // Allow user to select color
-    color : string;
+    backgroundColor : string;
 }

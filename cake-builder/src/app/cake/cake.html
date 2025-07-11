@@ -1,9 +1,7 @@
 <main class="main">
   <h2>Here's your cake:</h2>
-    <ol>
-      <li *ngfor = "let aLayer of layerNames"q
-      >
-        {{aLayer}}
-      </li>
-    </ol>
+    
+      <p *ngFor = "let aLayer of layersArray" id="layer1"  [style.width.px]="aLayer.width"[style.height.px]="aLayer.height" [style.background-color]="aLayer.backgroundColor"></p>
+
+    
   </main>

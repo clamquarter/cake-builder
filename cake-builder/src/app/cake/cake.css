@@ -1,9 +1,8 @@
-.layer {
-    border-bottom: 2px solid rgba(100, 100, 100, .3);
-    border-radius: 50%;
-    background-color: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+#layer1 {
+    display: block;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    margin: 0 auto;
+
+    
   }
